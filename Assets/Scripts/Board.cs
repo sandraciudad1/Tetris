@@ -39,7 +39,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void Start() 
     {
         PlayerPrefs.SetInt("points", 0);
         SpawnPiece();
